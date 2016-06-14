@@ -24,6 +24,7 @@ include: ["_pages"]
 collections:
   projects:
     output: true
+    permalink: /portfolio/:path/
 
 sass:
   style: compressed
