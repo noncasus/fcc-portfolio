@@ -22,7 +22,7 @@ github_username:  jekyll
 markdown: kramdown
 include: ["_pages"]
 collections:
-  cookies:
+  projects:
     output: true
 
 sass:
