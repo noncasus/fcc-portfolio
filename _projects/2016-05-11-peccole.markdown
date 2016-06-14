@@ -1,5 +1,5 @@
 ---
-layout: projects
+layout: project
 title: Peccole Project
 date: 2016-05-11T10:03:00.000Z
 image:
