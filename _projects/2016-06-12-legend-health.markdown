@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: projects
 title: Legend Health
 date: 2016-06-13T00:08:00.000Z
 image:
