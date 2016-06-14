@@ -21,6 +21,9 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 include: ["_pages"]
+collections:
+  cookies:
+    output: true
 
 sass:
   style: compressed
