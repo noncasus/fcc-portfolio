@@ -37,4 +37,4 @@ defaults:
         values:
             layout: project
             featured_image_path: /images/
-            author: true
+            title:
