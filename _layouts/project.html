@@ -2,12 +2,15 @@
 layout: project
 ---
 <div class="project">
-  <h2><img src="{{ page.image.featured_image_path | prepend: site.baseurl }}" alt="{{ page.title }}" />{{ page.title }}</h2>
+  <h2>{{ page.title }}</h2>
 
-  <div class="blog-post spacing">
-      <div class="excerpt">
+  <div class="content-wrapper">
+      <img src="{{ page.image.featured_image_path | prepend: site.baseurl }}" alt="{{ page.title }}" />
+      <div class="excerpt editable">
           {{ page.excerpt }}
       </div>
-    {{ content }}
+      <div class="content editable">
+          {{ content }}
+      </div>
   </div>
 </div>
