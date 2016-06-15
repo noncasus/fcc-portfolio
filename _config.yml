@@ -25,12 +25,14 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+
+sass:
+  style: compressed
+  
+defaults:
     - scope:
       path: ""
       type: posts
     values:
       image:
         featured_image_path:
-
-sass:
-  style: compressed
