@@ -36,5 +36,4 @@ defaults:
             type: projects
         values:
             layout: project
-            featured_image_path: /images/
-            title:
+            title: some title
