@@ -1,8 +1,6 @@
 ---
 layout: project
 title: Peccole Project
-image:
-  featured_path:
 ---
 
 
