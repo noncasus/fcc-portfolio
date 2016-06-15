@@ -1,8 +1,6 @@
 ---
 layout: project
 title: Towers
-image:
-  featured_path:
 ---
 
 
