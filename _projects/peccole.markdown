@@ -2,7 +2,7 @@
 layout: project
 title: Peccole Project
 image:
-  featured_path: peccole.jpg
+  featured_path:
 ---
 
 
