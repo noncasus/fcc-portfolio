@@ -5,6 +5,9 @@ layout: project
   <h2><img src="{{ page.image.featured_image_path | prepend: site.baseurl }}" alt="{{ page.title }}" />{{ page.title }}</h2>
 
   <div class="blog-post spacing">
+      <div class="excerpt">
+          {{ page.excerpt }}
+      </div>
     {{ content }}
   </div>
 </div>
