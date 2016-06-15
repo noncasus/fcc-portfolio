@@ -28,11 +28,3 @@ collections:
 
 sass:
   style: compressed
-  
-defaults:
-    -
-        scope:
-            path: ""
-            type: projects
-        values:
-            layout: project
