@@ -2,7 +2,7 @@
 layout: project
 title: Towers
 image:
-  featured_path: towers.jpg
+  featured_path:
 ---
 
 
