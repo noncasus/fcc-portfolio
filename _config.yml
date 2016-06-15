@@ -30,9 +30,10 @@ sass:
   style: compressed
   
 defaults:
-  scope:
-    path: ""
-    type: projects
-  values:
-    featured_image_path: /images/lhealth.jpg
-    layout: project
+    -
+        scope:
+            path: ""
+            type: projects
+        values:
+            featured_image_path: /images/lhealth.jpg
+            layout: project
