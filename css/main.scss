@@ -44,9 +44,14 @@
 @import "components/date_picker/default.time";
 
 
-.project-panel a{
-    position:relative;
-}
+.project-panel{
+    a{
+        position:relative;
+    }
+    &:hover .project-title-wrapper{
+        z-index:10;
+    }
+} 
 .project-title-wrapper h2{
     font-size:1rem;
     position:absolute;
