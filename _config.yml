@@ -25,6 +25,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+    image:
+        featured_image_path:
 
 sass:
   style: compressed
