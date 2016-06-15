@@ -2,7 +2,7 @@
 layout: project
 title: Legend Health
 image:
-  featured_path: lhealth.jpg
+  featured_path:
 ---
 
 
