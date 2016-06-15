@@ -35,4 +35,4 @@ defaults:
       type: projects
     values:
       featured_image_path:
-      layout: project
+      layout: "project"
