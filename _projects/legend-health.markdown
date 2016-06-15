@@ -1,5 +1,4 @@
 ---
-title: Legend Health
 ---
 
 
