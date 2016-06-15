@@ -34,5 +34,5 @@ defaults:
     path: ""
     type: projects
   values:
-    featured_image_path:
+    featured_image_path: /images/lhealth.jpg
     layout: project
