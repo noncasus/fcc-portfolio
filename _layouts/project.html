@@ -5,12 +5,6 @@ layout: project
   <h2>{{ page.title }}</h2>
 
   <div class="content-wrapper">
-      <img src="{{ page.image.featured_image_path | prepend: site.baseurl }}" alt="{{ page.title }}" />
-      <div class="excerpt editable">
-          {{ page.excerpt }}
-      </div>
-      <div class="content editable">
-          {{ content }}
-      </div>
+      {% include project-grid %}
   </div>
 </div>
