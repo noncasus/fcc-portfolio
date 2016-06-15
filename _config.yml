@@ -34,5 +34,4 @@ defaults:
     path: ""
     type: projects
   values:
-    featured_image_path:
     layout: project
