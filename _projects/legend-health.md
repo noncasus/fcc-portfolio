@@ -2,7 +2,7 @@
 title: Legend Health
 image:
   featured_image_path: /images/lhealth.jpg
-excerpt:
+excerpt: Legend health built using genesis framework
 ---
 
 
