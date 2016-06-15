@@ -34,5 +34,4 @@ defaults:
       path: ""
       type: posts
     values:
-      image:
-        featured_image_path:
+      featured_image_path:
