@@ -44,6 +44,12 @@
 @import "components/date_picker/default.time";
 
 
-h2{
+.project-panel a{
+    position:relative;
+}
+.project-title-wrapper h2{
     font-size:1rem;
+    position:absolute;
+    top:0;
+    margin:0;
 }
