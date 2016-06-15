@@ -1,4 +1,6 @@
 ---
-title: some title
+title:
 name:
+image:
+    featured_image_path:
 ---
