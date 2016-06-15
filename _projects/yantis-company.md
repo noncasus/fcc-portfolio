@@ -2,6 +2,7 @@
 title: Yantis Company
 image:
   featured_image_path: /images/yantis.jpg
+excerpt:
 ---
 
 
