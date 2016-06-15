@@ -3,7 +3,7 @@
         <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
         
         <div class="content-wrapper">
-            <img src="{{ project.image.featured_image_path | prepend: site.baseurl }}" alt="{{ project.title }}" />
+            <img class="responsive-img" src="{{ project.image.featured_image_path | prepend: site.baseurl }}" alt="{{ project.title }}" />
         </div>
     </div>
 {% endfor %}
