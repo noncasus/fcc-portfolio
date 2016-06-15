@@ -1,10 +1,8 @@
 {% for project in site.projects %}
 	<div class="project">
-        <div class="content-wrapper">
-            <div class="project-panel">
-                <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
-                <img class="responsive-img" src="{{ project.image.featured_image_path | prepend: site.baseurl }}" alt="{{ project.title }}" />
-            </div>
+        <div class="project-panel">
+            <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+            <img class="responsive-img" src="{{ project.image.featured_image_path | prepend: site.baseurl }}" alt="{{ project.title }}" />
         </div>
     </div>
 {% endfor %}
