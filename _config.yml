@@ -32,7 +32,7 @@ sass:
 defaults:
   scope:
     path: ""
-    type: projects
+    type: project
   values:
     featured_image_path: /images/lhealth.jpg
     layout: project
