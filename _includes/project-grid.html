@@ -1,6 +1,6 @@
 {% for project in site.projects %}
-	<div class="project">
-        <div class="project-panel col s1">
+	<div class="project col s3">
+        <div class="project-panel">
             <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
             <img class="responsive-img" src="{{ project.image.featured_image_path | prepend: site.baseurl }}" alt="{{ project.title }}" />
         </div>
