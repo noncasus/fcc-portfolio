@@ -2,6 +2,7 @@
     $( function() {
         'use strict';
         var settings = { 
+            anchors: 'a',
             onStart: {
                 duration: 280, // ms
                 render: function ( $container ) {
