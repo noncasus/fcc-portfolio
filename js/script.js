@@ -2,6 +2,7 @@
     $( function() {
         'use strict';
         var settings = { 
+            debug:true,
             anchors: 'a',
             onStart: {
                 duration: 280, // ms
