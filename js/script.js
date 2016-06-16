@@ -5,7 +5,7 @@
             debug:true,
             anchors: 'a',
             onStart: {
-                duration: 280, // ms
+                duration: 2000, // ms
                 render: function ( $container ) {
                     $container.addClass( 'is-exiting' );
                 }
