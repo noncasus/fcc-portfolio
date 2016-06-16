@@ -7,11 +7,11 @@
             onStart: {
                 duration: 2000, // ms
                 render: function ( $container ) {
-                    $container.addClass( 'slide-out' );
+                    $container.addClass( 'fade-out' );
                 }
             },
             onAfter: function( $container ) {
-                $container.removeClass( 'slide-out' );
+                $container.removeClass( 'fade-out' );
             },
             debug:true
         };
