@@ -61,13 +61,15 @@
 
 .project-panel{
     background: #000;
-    -webkit-transition: opacity 2s ease-in-out;
-    transition: opacity 2s ease-in-out;
      a{
          position:relative;
      }
      &:hover .project-title-wrapper h2{
          z-index:10;
+     }
+     a img{
+         -webkit-transition: opacity 2s ease-in-out;
+        transition: opacity 2s ease-in-out;
      }
      &:hover a img{
          opacity:.5
