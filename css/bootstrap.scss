@@ -60,6 +60,7 @@
 @import "bootstrap/responsive-utilities";
 
 .project-panel{
+    background-color:#000;
      a{
          position:relative;
      }
@@ -74,7 +75,6 @@
      transition: opacity 1s ease-in-out;
  }
  .project-title-wrapper{
-     background-color:#000;
      position:absolute;
      top:0;
      z-index: -1;
