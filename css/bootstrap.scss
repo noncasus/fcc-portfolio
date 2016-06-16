@@ -129,14 +129,14 @@
   100% { opacity: 0; }
 }
 .site-content-in{
-    -webkit-animation: fadeIn 1s; /* Safari 4+ */
-    -moz-animation:    fadeIn 1s; /* Fx 5+ */
-    -o-animation:      fadeIn 1s; /* Opera 12+ */
-    animation:         fadeIn 1s; /* IE 10+, Fx 29+ */
+    -webkit-animation: fadeIn 1.5s; /* Safari 4+ */
+    -moz-animation:    fadeIn 1.5s; /* Fx 5+ */
+    -o-animation:      fadeIn 1.5s; /* Opera 12+ */
+    animation:         fadeIn 1.5s; /* IE 10+, Fx 29+ */
 }
 .site-content-out{
-    -webkit-animation: fadeOut 1s; /* Safari 4+ */
-    -moz-animation:    fadeOut 1s; /* Fx 5+ */
-    -o-animation:      fadeOut 1s; /* Opera 12+ */
-    animation:         fadeOut 1s; /* IE 10+, Fx 29+ */
+    -webkit-animation: fadeOut 1.5s; /* Safari 4+ */
+    -moz-animation:    fadeOut 1.5s; /* Fx 5+ */
+    -o-animation:      fadeOut 1.5s; /* Opera 12+ */
+    animation:         fadeOut 1.5s; /* IE 10+, Fx 29+ */
 }
