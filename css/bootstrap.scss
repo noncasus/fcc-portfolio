@@ -77,7 +77,7 @@
      }
  }
  .grid-img-wrapper{
-     transition: opacity .7s ease-in-out;
+     transition: all .7s ease-in-out;
  }
  .project-title-wrapper,.panel-border{
      position:absolute;
@@ -92,5 +92,5 @@
  }
  .panel-border{
      border: 0 solid;
-     transition: border .7s ease
+     transition: all .7s ease
  }
