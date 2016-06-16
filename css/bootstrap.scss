@@ -140,7 +140,7 @@
 //     -o-animation:      fadeOut 2s; /* Opera 12+ */
 //     animation:         fadeOut 2s; /* IE 10+, Fx 29+ */
 // }
-.site-content-out{
+.site-content-in.site-content-out{
     -webkit-animation: fadeIn 2s alternate-reverse; /* Safari 4+ */
     -moz-animation:    fadeIn 2s alternate-reverse; /* Fx 5+ */
     -o-animation:      fadeIn 2s alternate-reverse; /* Opera 12+ */
