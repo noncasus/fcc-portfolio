@@ -7,13 +7,9 @@
             onStart: {
                 duration: 2000, // ms
                 render: function ( $container ) {
-                    $container.addClass( 'site-content-out' );
+                    $container.toggleAnimationClass( 'fade-content' );
                 }
-            },
-            onAfter: function( $container ) {
-                $container.removeClass( 'site-content-out' );
-            },
-            debug:true
+            }
         };
  
         $( '#container' ).smoothState( settings );
