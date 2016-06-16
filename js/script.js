@@ -7,11 +7,11 @@
             onStart: {
                 duration: 2000, // ms
                 render: function ( $container ) {
-                    $container.toggleClass('site-content-out');
+                    $container.toggleClass('site-content-in').delay(500).toggleClass('site-content-out');
                 }
             },
             onAfter: function( $container ) {
-                $container.toggleClass('site-content-out');
+                $container.toggleClass('site-content-in').delay(500).toggleClass('site-content-out');
             }
         };
  
