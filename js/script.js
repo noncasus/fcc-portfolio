@@ -12,7 +12,8 @@
             },
             onAfter: function( $container ) {
                 $container.removeClass( 'slide-out' );
-            }
+            },
+            debug:true
         };
  
         $( '#container' ).smoothState( settings );
