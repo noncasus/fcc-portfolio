@@ -118,6 +118,6 @@
     -o-animation:      fadeIn 2s; /* Opera 12+ */
     animation:         fadeIn 2s; /* IE 10+, Fx 29+ */
 }
-.site-content-in.is-exiting{
+.is-exiting{
     animation-direction: alternate-reverse;
 }
