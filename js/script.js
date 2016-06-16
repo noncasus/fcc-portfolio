@@ -5,7 +5,7 @@
             debug:true,
             anchors: 'a',
             onStart: {
-                duration: 500, // ms
+                duration: 1500, // ms
                 render: function ( $container ) {
                     $container.removeClass('site-content-in').delay(500).addClass('site-content-out');
                 }
