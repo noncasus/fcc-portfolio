@@ -11,7 +11,7 @@
                 }
             },
             onAfter: function( $container ) {
-                $container.removeClass('site-content-out').delay(1000).addClass('site-content-in');
+                $container.removeClass('site-content-out').delay(1500).addClass('site-content-in');
             }
         };
  
