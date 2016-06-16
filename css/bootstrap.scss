@@ -72,13 +72,14 @@
          opacity:.5;
      }
      &:hover .panel-border{
+         z-index:10;
          border:10px solid;
      }
  }
  .grid-img-wrapper{
      transition: opacity .7s ease-in-out;
  }
- .project-title-wrapper{
+ .project-title-wrapper,.panel-border{
      position:absolute;
      top:0;
      z-index: -1;
@@ -90,7 +91,5 @@
      margin:10px 0 0 10px;
  }
  .panel-border{
-     height:100%;
-     width:100%;
      transition: border .7s ease-in-out
  }
