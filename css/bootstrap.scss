@@ -60,11 +60,15 @@
 @import "bootstrap/responsive-utilities";
 
 .project-panel{
+    background-color:#000;
      a{
          position:relative;
      }
      &:hover .project-title-wrapper h2{
          z-index:10;
+     }
+     &:hover a img{
+         opacity:0.5;
      }
  } 
  .project-title-wrapper h2{
