@@ -61,6 +61,8 @@
 
 .project-panel{
     background-color:#000;
+    opacity:1;
+    transition: opacity 2s;
      a{
          position:relative;
      }
