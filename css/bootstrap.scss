@@ -60,8 +60,8 @@
 @import "bootstrap/responsive-utilities";
 
 .project-panel{
-    background-color:#000;
-    opacity:1;
+    background: rgba(0,0,0,1);
+    transition: background 2s ease-out;
     transition: opacity 2s;
      a{
          position:relative;
@@ -70,7 +70,7 @@
          z-index:10;
      }
      &:hover a img{
-         opacity:0.5;
+         background: rgba(0,0,0,.5);
      }
  } 
  .project-title-wrapper h2{
