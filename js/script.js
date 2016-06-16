@@ -6,7 +6,7 @@
             anchors: 'a'
         };
  
-        $( '.container' ).smoothState( settings );
+        $( '#container' ).smoothState( settings );
     } );
  
 })( jQuery );
