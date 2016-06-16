@@ -7,11 +7,11 @@
             onStart: {
                 duration: 2000, // ms
                 render: function ( $container ) {
-                    $container.addClass( 'is-exiting' );
+                    $container.removeClass('site-content-in').addClass( 'is-exiting' );
                 }
             },
             onAfter: function( $container ) {
-                $container.removeClass( 'is-exiting' );
+                $container.removeClass( 'is-exiting' ).addClass('site-content-in');
             }
         };
  
