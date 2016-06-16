@@ -5,13 +5,13 @@
             debug:true,
             anchors: 'a',
             onStart: {
-                duration: 2000, // ms
+                duration: 2500, // ms
                 render: function ( $container ) {
-                    $container.toggleClass('site-content-out');
+                    $container.removeClass('site-content-in').delay(500).addClass('site-content-out');
                 }
             },
             onAfter: function( $container ) {
-                $container.toggleClass('site-content-out');
+                $container.removeClass('site-content-out').delay(500).addClass('site-content-in');
             }
         };
  
