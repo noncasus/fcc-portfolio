@@ -71,6 +71,9 @@
      &:hover .grid-img-wrapper{
          opacity:.5;
      }
+     &:hover .panel-border{
+         border:10px solid;
+     }
  }
  .grid-img-wrapper{
      transition: opacity .7s ease-in-out;
@@ -85,4 +88,9 @@
  .project-title-wrapper h2{
      font-size:16px;
      margin:10px 0 0 10px;
+ }
+ .panel-border{
+     height:100%;
+     width:100%;
+     transition: border .7s; ease-in-out
  }
