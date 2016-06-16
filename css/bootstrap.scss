@@ -58,3 +58,18 @@
 // Utility classes
 @import "bootstrap/utilities";
 @import "bootstrap/responsive-utilities";
+
+.project-panel{
+     a{
+         position:relative;
+     }
+     &:hover .project-title-wrapper h2{
+         z-index:10;
+     }
+ } 
+ .project-title-wrapper h2{
+     font-size:1rem;
+     position:absolute;
+     top:0;
+     margin:0;
+ }
