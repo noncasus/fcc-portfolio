@@ -3,6 +3,7 @@
     $( function() { // Ready
  
         var settings = { 
+            anchors: 'a'
             onStart: {
                 duration: 2000, // ms
                 render: function ( $container ) {
