@@ -5,7 +5,7 @@
         var settings = { 
             anchors: 'a',
             onStart: {
-                duration: 20000, // ms
+                duration: 2000, // ms
                 render: function ( $container ) {
                     $container.addClass( 'slide-out' );
                 }
