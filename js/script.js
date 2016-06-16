@@ -1,18 +1,13 @@
-( function( $ ) {
- 
-    $( function() { // Ready
-        'use strict';
-        var settings = { 
-            anchors: 'a',
-            onStart: {
-                duration: 2000, // ms
-                render: function ( $container ) {
-                    $container.toggleAnimationClass( 'fade-content' );
-                }
+; (function ($) {
+    'use strict';
+    var $body   = $('html, body'),
+        content = $('#main').smoothState({
+        onStart: {
+            duration: 250,
+            render: function (url, $container) {
+                content.toggleAnimationClass('is-exiting');
+                $body.animate({ 'scrollTop': 0 });
             }
-        };
- 
-        $( '#container' ).smoothState( settings );
-    } );
- 
-})( jQuery );
+        }
+    }).data('smoothState');
+})(jQuery);
