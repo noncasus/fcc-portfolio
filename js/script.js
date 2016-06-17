@@ -4,7 +4,7 @@ $(function(){
     prefetch: true,
     cacheLength: 4,
     onStart: {
-      duration: 700, // Duration of our animation
+      duration: 2000, // Duration of our animation
       render: function ($container) {
         // Add your CSS animation reversing class
         $container.addClass('is-exiting');
