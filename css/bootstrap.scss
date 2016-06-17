@@ -122,3 +122,8 @@ body {
     -o-animation:      fadeIn 0.7s; /* Opera 12+ */
     animation:         fadeIn 0.7s; /* IE 10+, Fx 29+ */
 }
+
+#main.is-exiting {
+  -webkit-animation-direction: alternate-reverse;
+          animation-direction: alternate-reverse;
+}
