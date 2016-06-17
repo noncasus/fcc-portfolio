@@ -2,10 +2,10 @@ $(function(){
   'use strict';
   var options = {
       debug: true,
-    //  prefetch: true,
-    //  cacheLength: 4,
+     prefetch: true,
+     cacheLength: 3,
     onStart: {
-      duration: 2000, // Duration of our animation
+      duration: 800, // Duration of our animation
       render: function ($container) {
         // Add your CSS animation reversing class
         $container.addClass('is-exiting');
