@@ -1,7 +1,7 @@
 $(function(){
   'use strict';
   var options = {
-    prefetch: true,
+    // prefetch: true,
     onStart: {
       duration: 5000, // Duration of our animation
       render: function ($container) {
