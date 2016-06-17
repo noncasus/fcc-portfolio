@@ -116,14 +116,21 @@ body {
   100% { opacity: 1; }
 }
 
-#main .site-content-in{
-    -webkit-animation: fadeIn 5s; /* Safari 4+ */
-    -moz-animation:    fadeIn 5s; /* Fx 5+ */
-    -o-animation:      fadeIn 5s; /* Opera 12+ */
-    animation:         fadeIn 5s; /* IE 10+, Fx 29+ */
+#main .site-content{
+    -webkit-animation-duration: .25s;
+    animation-duration: .25s;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+#main .site-content-in {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
 }
 
-#main.is-exiting .site-content-in {
+#main.is-exiting .site-content {
   -webkit-animation-direction: alternate-reverse;
           animation-direction: alternate-reverse;
 }
+
