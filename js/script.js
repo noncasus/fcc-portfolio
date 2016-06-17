@@ -14,7 +14,7 @@ $(function(){
       }
     },
     onReady: {
-      duration: 0,
+      duration: 10000,
       render: function ($container, $newContent) {
         // Remove your CSS animation reversing class
         $container.removeClass('is-exiting');
