@@ -7,7 +7,7 @@ $(function(){
       duration: 700, // Duration of our animation
       render: function ($container) {
         // Add your CSS animation reversing class
-        $container.addClass('site-content-out');
+        $container.addClass('is-exiting');
 
         // Restart your animation
         smoothState.restartCSSAnimations();
@@ -17,7 +17,7 @@ $(function(){
       duration: 0,
       render: function ($container, $newContent) {
         // Remove your CSS animation reversing class
-        $container.removeClass('site-content-out');
+        $container.removeClass('is-exiting');
 
         // Inject the new content
         $container.html($newContent);
