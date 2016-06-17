@@ -2,7 +2,7 @@ $(function(){
   'use strict';
   var options = {
     prefetch: true,
-    cacheLength: 3,
+    cacheLength: 4,
     onStart: {
       duration: 700, // Duration of our animation
       render: function ($container) {
