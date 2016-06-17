@@ -1,6 +1,7 @@
 $(function(){
   'use strict';
   var options = {
+      debug: true,
     // prefetch: true,
     onStart: {
       duration: 6000, // Duration of our animation
