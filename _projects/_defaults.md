@@ -3,5 +3,5 @@ title:
 image:
     featured_image_path:
 excerpt:
-meta:
+meta_info:
 ---
